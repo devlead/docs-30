@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pro Features Guide on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/pro-features/</link>
+    <description>Recent content in Pro Features Guide on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/pro-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitPitch Desktop</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ GitPitch Desktop Pro Editon is a markdown presentation tool available on MacOS, Linux, and Windows 10 (Pro + Enterprise). The Desktop supports the following features:
+ Develop &amp;#43; Preview Decks Offline  Present Decks Offline  Customize Decks with Theme Builder  Size-Optimize Images with Image Manager  Publish Public &amp;#43; Private Decks Online  Export Slide Decks to PDF  Export Slide Decks to PowerPoint PPTX  Export Slide Deck Workflow Constraints  Export Slide Deck Content Constraints   Develop and Preview Decks Offline The Desktop lets you develop and preview slide content offline using the full set of GitPitch features.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Launch</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop-launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop-launch/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The Desktop launch instructions in this guide assume you have completed the following:
+ You have activated a GitPitch Free Trial or Paid Plan . You have Docker Desktop installed. You have downloaded &amp;#43; installed GitPitch Desktop .</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Shortcuts</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop-shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop-shortcuts/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The following keyboard shortcuts are available when viewing a slide deck within the Desktop:
+ Press Q to go back to the Desktop Home Screen Press F to launch Fullscreen Mode Press O to launch Overview Mode Press M to open the Table of Contents Press B to launch Blackout [Pause] Mode Press S to launch the Speaker Window  Press T to launch the Theme Builder  Press D to launch the PDF &amp;#43; PPTX Document Generators  Press C to preview the Confidential Mode Challenge Form  Press ] to switch between Development Mode and Presenter Mode   Development Mode v Presenter Mode GitPitch Desktop operates in two distinct modes: development mode and presenter mode.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Whiteboard</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop-whiteboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop-whiteboard/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The Desktop Whiteboard lets you quickly sketch any diagram with a hand-drawn feel. Ideal for sharing mockups, wireframes, system diagrams, UI workflows, casual brainstorming, concepts, and more. You can save your sketches as pixel-perfect SVG or PNG for rendering on any slide.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Image Tools</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop-image-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop-image-tools/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+  Understanding Image Size Limits  Desktop Image Compression Tool  How to Disable Image Size Limits   Understanding Image Size Limits GitPitch enforces size limits on image files. These size limits exist to ensure slide decks viewed online can be loaded and rendered in the browser without undue delays.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop FAQ</title>
+      <link>https://gitpitch.com/docs/pro-features/desktop-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/desktop-faq/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+  How can I download and install the latest Desktop Pro image?  What happens if Desktop Pro finds no PITCHME.md?  What happens if Desktop Pro finds multiple PITCHME.md?  How can I change the default 9000 port used by Desktop Pro?</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Publishing</title>
+      <link>https://gitpitch.com/docs/pro-features/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/security/</guid>
+      <description>About  Activate a GitPitch Paid Plan to unlock Pro Cloud Publishing.
+ Pro Publishing lets you share any slideshow presentation online with a simple git-push. Including support for public, private, and password-protected slideshows. You can use this feature to secure your content and manage your slideshow audience in the cloud.
+By convention , GitPitch will automatically transform the contents of any PITCHME.mdmarkdown file found within any public repositoryinto a fully responsive, slideshow presentation.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Surveys</title>
+      <link>https://gitpitch.com/docs/pro-features/surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/surveys/</guid>
+      <description>About  Activate a GitPitch Paid Plan to unlock Pro Cloud Surveys.
+ Pro Surveys turn any online slideshow into a two-way conversation. Deliver your message using a GitPitch slideshow presentation. Then gather feedback from your audience by seamlessly embedding a professional survey directly inside your slidedeck.
+Surveys let you gather feedback from your audience long after you leave the stage.
+ JotForm Surveys  SurveyMonkey Surveys  Google Forms Surveys   JotForm Surveys Powered by JotForm .</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Audio Decks</title>
+      <link>https://gitpitch.com/docs/pro-features/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/audio/</guid>
+      <description>About  Activate a GitPitch Paid Plan to unlock Pro Cloud Audio.
+ GitPitch Audio Slide Decks let you enhance traditional slide decks with the spoken word. By activating a voice-over for individual slides and slide fragments, you can unlock brand new ways to SHARE knowledge, TEACH, and deliver TRAINING materials.
+ Live Audio Slide Deck Example  Audio Deck Activation  Master Audio v Fragment Audio  Add Slide Master Audio  Add Slide Code Fragment Audio  Add Slide Snap Fragment Audio  Add Slide List Fragment Audio  Slides / Fragments without Audio  Customize Audio Player Controls  Audio File Caching Policies  Supported Audio Formats  Audio Recording Tool Recommendations   Live Audio Slide Deck Example The best way to appreciate the unique benefits of an audio slide deck is to experience one live.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Code Features</title>
+      <link>https://gitpitch.com/docs/pro-features/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/code/</guid>
+      <description> About  Activate a GitPitch Paid Plan to unlock Pro Code Features.
+ Click on any of the links below to get started with Pro Code slide decks.
+ Code Widget  Code Widget with Step-and-ZOOM  GitHub GIST Widget  GitHub GIST Widget with Step-and-ZOOM  Code Presenting with Code Filters  Code Presenting with Reveal Properties  Code Presenting with Power Properties  Asciinema Live Terminal Sessions   </description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Image Features</title>
+      <link>https://gitpitch.com/docs/pro-features/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/image/</guid>
+      <description>About  Activate a GitPitch Paid Plan to unlock Pro Image Features.
+  Leverage SVG Images for Pixel Perfect Rendering  Slide-Specific Background Image Opacity Controls  Global Background Image Opacity Controls  Inline Image Sizing, Opacity, Filters, Transformations, and More   Leverage SVG Images for Pixel Perfect Rendering GitPitch Pro supports rendering SVG images directly from public and private Git repositories. These images can now be used either as inline images or as background images for presentation slides.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Pro Power Features</title>
+      <link>https://gitpitch.com/docs/pro-features/power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/pro-features/power/</guid>
+      <description>About  Activate a GitPitch Paid Plan to unlock Pro Power Features.
+  Pro Code Features  Pro Audio Features  Pro Image Features  Google Web Fonts  Emoji Widget  Tweet Widget  Table Data Widget  UML Widget for Diagrams  UML Widget for LaTeX &amp;#43; AsciiMath  Asciinema Terminal Sessions  Offline Video Streaming  Pro Only Twitter Card Settings  Pro Only Slideshow Title Setting  Pro Only Slideshow Menu Control   Remember to check back here periodically as new power features may be added over time.</description>
+    </item>
+    
+  </channel>
+</rss>

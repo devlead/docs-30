@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work with Markdown on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/markdown-features/</link>
+    <description>Recent content in Work with Markdown on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/markdown-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Basics</title>
+      <link>https://gitpitch.com/docs/markdown-features/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/basics/</guid>
+      <description>GitHub Flavored Markdown is the principal creation tool for slide content within PITCHME.md. This is the same tool you use as a developer to create project READMEs or Wikis for your Git repos.
+The Mastering Markdown Guide is a good resource to learn or refresh the basic usage of Markdown and the GitHub Flavored Markdown (GFM) extensions.
+ Use slide delimiters in your PITCHME.md file to split your markdown content across different slides.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Text</title>
+      <link>https://gitpitch.com/docs/markdown-features/text-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/text-manipulation/</guid>
+      <description>To create a custom theme for your slide deck including custom fonts, colors, sizing, etc. we recommend using the Theme Builder . This guide demonstrates a text-manipulation techniques that target specific blocks of plain-text on any slide.
+ Plain Text Basic Example  Plain Text Auto-Color Example  Plain Text Custom-Space Example  Plain Text Custom-Size Example  Plain Text Custom-Space-and-Size Example  Plain Text Custom Color Example  Plain Text Custom Color CSS Example  Plain Text Custom Font Example  Plain Text Custom Transforms Example  List Item Text Customization Example   Plain Text Basic Example The following markdown snippet:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Fragments</title>
+      <link>https://gitpitch.com/docs/markdown-features/fragments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/fragments/</guid>
+      <description>Markdown fragments are a great way to introduce key concepts to your audience - one idea at a time.
+ Markdown fragment support is a simple yet powerful feature that can be used to reveal individual elements on a slide one-by-one. As distinct to revealing all elements on the slide at once.
+This feature has great utility for presentation authors as it allows you to focus your audience&amp;rsquo;s attention on key concepts, revealing additional content on the slide only when the time is right.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Widgets</title>
+      <link>https://gitpitch.com/docs/markdown-features/widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/widgets/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to generate rich visual components - aka. widgets - on any slide.
+ @box - Boxed Text Widget  @box - Boxed Text With Title Widget  @quote - Quote Widget  @quote - Quote With Attribution Widget  @fa - Font Awesome 5 Icon Widget  @gitlink - Git Repo Link Widget  @diff - Git Diff Widget  @snap - Snap Layouts Widget    Note: Markdown Widgets are supported by gitpitch.</description>
+    </item>
+    
+    <item>
+      <title>Markdown List Widgets</title>
+      <link>https://gitpitch.com/docs/markdown-features/list-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/list-widgets/</guid>
+      <description>This guide introduces GitPitch list widgets, a special syntax for activating custom styles and custom behaviors for markdown list content on your slides.
+ @ul - Unordered List Widget  @ol - Ordered List Widget  List Widget Slide Fragments Behavior  List Widget Built-In Styles Activation  List Widget Custom Styles Activation  List Widget Speaker Mode Fragment Behaviors  List Widget Speaker Mode Fragment Notes     Unordered List Widget Syntax To activate a list widget on unordered list content simply wrap any standard markdown list block in opening @ul and closing @ulend tags as shown here:</description>
+    </item>
+    
+    <item>
+      <title>Markdown Pro Widgets</title>
+      <link>https://gitpitch.com/docs/markdown-features/pro-widgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/pro-widgets/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock Pro Widget support.
+  @code - Code Widget  @gist - GitHub GIST Widget  @emoji - Emoji Widget  @tweet - Tweet Widget  @table - Table Data Widget  @cloud - Cloud Diagram Widget  @uml - UML Diagram Widget  @uml - LaTeX &amp;#43; AsciiMath Widget  @audio - Audio Slide Deck Widget   Code Widget The @code widget supports a wide range of powerful extensions beyond standard code presenting including Code Step-and-Zoom , Code Revealing , and Code Power Properties .</description>
+    </item>
+    
+    <item>
+      <title>Markdown Pro Images</title>
+      <link>https://gitpitch.com/docs/markdown-features/image-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/image-manipulation/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock Pro Image support.
+ This guide introduces powerful Pro image-manipulation techniques that can be applied to inline images on any slide.
+ Image Sizing  Image Opacity  Image Filters  Image 2D Transformations  Image 3D Transformations  Image Fragment Behaviour  Image Custom Styles  Image Title Text      For even more image manipulation features see the Background Images Guide .</description>
+    </item>
+    
+    <item>
+      <title>Markdown Shortcuts</title>
+      <link>https://gitpitch.com/docs/markdown-features/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/markdown-features/shortcuts/</guid>
+      <description>GitPitch provides a number of unique syntax shortcuts supported by PITCHME.md markdown that can be used to alter the appearance or behavior of content on any slide.
+ @size - Set Custom Font Size  @color - Set Custom Font Color  @css - Set Custom CSS Class  @title - Set Custom TOC Label for Slide  @transition - Set Slide-Specific Transition    Note: These Markdown Shortcuts are supported by gitpitch.</description>
+    </item>
+    
+  </channel>
+</rss>

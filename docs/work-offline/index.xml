@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work Offline on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/work-offline/</link>
+    <description>Recent content in Work Offline on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/work-offline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitPitch Desktop</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ GitPitch Desktop Pro Editon is a markdown presentation tool available on MacOS, Linux, and Windows 10 (Pro + Enterprise). The Desktop supports the following features:
+ Develop &amp;#43; Preview Decks Offline  Present Decks Offline  Customize Decks with Theme Builder  Size-Optimize Images with Image Manager  Publish Public &amp;#43; Private Decks Online  Export Slide Decks to PDF  Export Slide Decks to PowerPoint PPTX  Export Slide Deck Workflow Constraints  Export Slide Deck Content Constraints   Develop and Preview Decks Offline The Desktop lets you develop and preview slide content offline using the full set of GitPitch features.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Launch</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop-launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop-launch/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The Desktop launch instructions in this guide assume you have completed the following:
+ You have activated a GitPitch Free Trial or Paid Plan . You have Docker Desktop installed. You have downloaded &amp;#43; installed GitPitch Desktop .</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Shortcuts</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop-shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop-shortcuts/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The following keyboard shortcuts are available when viewing a slide deck within the Desktop:
+ Press Q to go back to the Desktop Home Screen Press F to launch Fullscreen Mode Press O to launch Overview Mode Press M to open the Table of Contents Press B to launch Blackout [Pause] Mode Press S to launch the Speaker Window  Press T to launch the Theme Builder  Press D to launch the PDF &amp;#43; PPTX Document Generators  Press C to preview the Confidential Mode Challenge Form  Press ] to switch between Development Mode and Presenter Mode   Development Mode v Presenter Mode GitPitch Desktop operates in two distinct modes: development mode and presenter mode.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Whiteboard</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop-whiteboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop-whiteboard/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+ The Desktop Whiteboard lets you quickly sketch any diagram with a hand-drawn feel. Ideal for sharing mockups, wireframes, system diagrams, UI workflows, casual brainstorming, concepts, and more. You can save your sketches as pixel-perfect SVG or PNG for rendering on any slide.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop Image Tools</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop-image-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop-image-tools/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+  Understanding Image Size Limits  Desktop Image Compression Tool  How to Disable Image Size Limits   Understanding Image Size Limits GitPitch enforces size limits on image files. These size limits exist to ensure slide decks viewed online can be loaded and rendered in the browser without undue delays.</description>
+    </item>
+    
+    <item>
+      <title>GitPitch Desktop FAQ</title>
+      <link>https://gitpitch.com/docs/work-offline/desktop-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/desktop-faq/</guid>
+      <description>Interested in taking GitPitch Desktop for a test drive? To start your 7 day free trial and see one-time purchase and subscription pricing options visit the GitPitch website here .
+  How can I download and install the latest Desktop Pro image?  What happens if Desktop Pro finds no PITCHME.md?  What happens if Desktop Pro finds multiple PITCHME.md?  How can I change the default 9000 port used by Desktop Pro?</description>
+    </item>
+    
+    <item>
+      <title>Offline Documentation</title>
+      <link>https://gitpitch.com/docs/work-offline/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/work-offline/documentation/</guid>
+      <description>The GitPitch Docs The complete GitPitch Docs found at https://gitpitch.com/docs are also made available for download. Once downloaded, you can browse and reference these docs when working offline.
+To download the docs bundle, click here . Once downloaded, expand the zip bundle and open index.html under a local Web server.</description>
+    </item>
+    
+  </channel>
+</rss>

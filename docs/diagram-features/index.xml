@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work with Diagrams on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/diagram-features/</link>
+    <description>Recent content in Work with Diagrams on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/diagram-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sketch Whiteboard</title>
+      <link>https://gitpitch.com/docs/diagram-features/sketch-whiteboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/sketch-whiteboard/</guid>
+      <description>The Excalidraw whiteboard lets you quickly sketch any diagram with a hand-drawn feel. Ideal for sharing mockups, wireframes, system diagrams, UI workflows, casual brainstorming, concepts, and more. You can save your sketches as pixel-perfect SVG or PNG for rendering on any slide.
+The whiteboard is powered by the amazing Excalidraw Sketch Tool and integrated seamlessly for working offline within GitPitch Desktop. For details see the Desktop Whiteboard Guide .</description>
+    </item>
+    
+    <item>
+      <title>Cloud Diagram Widget</title>
+      <link>https://gitpitch.com/docs/diagram-features/cloud-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/cloud-diagrams/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock Cloud Diagram Widget support.
+ This guide describes the @cloud widget. This widget is a simple markdown syntax that can be used to create and render sophisticated cloud system architecture diagrams powered by Diagrams-As-Code on any slide.
+ Cloud Widget Usage Conventions  Cloud Diagrams Image Manipulations  Learn By Example - AWS Event Processing  More Examples in the Diagrams-As-Code Docs    Click here to experience Cloud Diagrams live in a sample GitPitch slide deck.</description>
+    </item>
+    
+    <item>
+      <title>Mermaid Diagram Widget</title>
+      <link>https://gitpitch.com/docs/diagram-features/mermaid-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/mermaid-diagrams/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock UML Diagram Widget support.
+ This guide describes the @mermaid widget. This widget is a simple markdown syntax that can be used to render Mermaid Diagrams and Flowcharts on any slide.
+ Mermaid Widget Usage Conventions  Mermaid Diagrams Built-In Themes  Mermaid Diagrams Image Manipulations  Mermaid Diagrams Background Colors  Mermaid Diagrams Layout Orientation  Learn By Example - Flowchart  Learn By Example - Flowchart Styling  Learn By Example - Sequence Diagram  More Examples in the Mermaid Docs   Mermaid Widget Usage Conventions Each diagram is defined using a simple text-based syntax within a dedicated description file.</description>
+    </item>
+    
+    <item>
+      <title>UML Diagram Widget</title>
+      <link>https://gitpitch.com/docs/diagram-features/uml-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/uml-diagrams/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock UML Diagram Widget support.
+ This guide describes the @uml widget. This widget is a simple markdown syntax that can be used to render PlantUML diagrams on any slide.
+ UML Widget Usage Conventions  UML Diagrams Image Manipulations  UML Diagrams Layout Orientation  Learn By Example - Sequence Diagrams  Learn By Example - Activity Diagrams  Learn By Example - State Diagrams  Learn By Example - Timing Diagrams  Learn By Example - Use Case Diagrams  Learn By Example - Object Diagrams  More Examples in the PlantUML Docs    Click here to experience UML Diagrams live in a sample GitPitch slide deck.</description>
+    </item>
+    
+    <item>
+      <title>Graphviz/DOT Diagrams</title>
+      <link>https://gitpitch.com/docs/diagram-features/graphviz-diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/graphviz-diagrams/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock Graphviz/Dot Diagrams.
+ The UML Widget powered by PlantUML makes use of Graphviz/DOT Visualization Software for rendering under the hood. This guide describes how you can leverage Graphviz/Dot support directly to generate sophisticated graphs on any slide.
+ Graphviz/Dot Usage Conventions  Learn by Example - A  Learn by Example - B  Learn by Example - C  Learn by Example - D  Graphviz/Dot Diagrams GitPitch Caching Policy   Graphviz/Dot Widget Usage Conventions The conventions required to use Graphviz/Dot diagrams are as follows:</description>
+    </item>
+    
+    <item>
+      <title>Line Bar Radar Charts</title>
+      <link>https://gitpitch.com/docs/diagram-features/charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/diagram-features/charts/</guid>
+      <description>Add beautifully rendered line, bar, pie, radial, etc. charts to any slide. Support for charts within GitPitch slide decks is powered by the Reveal.js plugin for Chart.js .
+ Learn by Example - Line Chart  Learn By Example - Bar Chart  Learn By Example - Radar Chart  Charts Plugin Activation   By default, this plugin is disabled. To enable this plugin for your presentation, see Charts Plugin Activation below.</description>
+    </item>
+    
+  </channel>
+</rss>

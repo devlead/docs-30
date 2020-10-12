@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/pitchme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/automatic-layout/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/citations/bibliography/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/color-backgrounds/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/fenced-blocks/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/google-analytics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/getting-started/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/inline/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/text-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/promotions/microsoft-mvp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-online/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/sketch-whiteboard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/speaker-features/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/default/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/theme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/image-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/table-of-contents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/background/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/cloud-diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/custom-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/font-awesome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/ci/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop-launch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop-launch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/getting-started/pitchme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-online/urls/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/source-files/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/speaker-features/window/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/template/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/git/branch-many-slideshows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop-shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop-shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/theme-builder/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/scaling/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/highlight/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/prerequisites/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-online/do-more-with-git/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/gists/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop-whiteboard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop-whiteboard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/keyboard-controls/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/ci/circleci/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/fragments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/math-features/math-formulas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/mermaid-diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-online/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/getting-started/delimiters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/git/branch-shared-assets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-syntax/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/solid-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/speaker-features/remote-control/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/custom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/tweets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/line-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop-image-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop-image-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/desktop-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/positioning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/emojis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/desktop-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/security/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/gradient-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/install/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/launch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/ci/github-actions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/layout/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/presenting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/git/branch-shared-markdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-example-1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/speaker-features/demo-gods/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/custom-fonts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/uml-diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/list-widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/pro-widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/colors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/syntax-highlighting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/config/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/surveys/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/graphviz-diagrams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/horizontal-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/logo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/image-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/slideshow-embedding/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-example-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/table-data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/css-utility-styles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/favicon/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/git/branch-modular-slideshows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/monospaced-fonts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/repeat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/background/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/diff/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/audio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/inline-videos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/charts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/shortcuts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/work-offline/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-example-3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/themes/demos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/vertical-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/markdown-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/angled-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/animations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/background-videos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/line-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/code/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-example-4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/transition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/title/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/footnote/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/image/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/offline-video-streaming/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/opacity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/published/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-example-5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/unordered-list-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/power/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/image-features/size-limits/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/loop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/ordered-list-slide-designs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/pro-code-widgets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/diagram-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/revealjs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/lang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/pro-code-zoom/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/math-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/rtl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/controls-layout/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/pro-code-revealing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/rich-media-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/print/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/math-features/latex-math/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/mouse-wheel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/pro-code-filters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/citations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/pro-code-power-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/remote-control/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/layout-features/snap-layouts-slide-transitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/speaker-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/eager-loading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/charts-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/code-features/terminal-sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/maths-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/git/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/google-analytics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/pro-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/enterprise/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/settings/twitter-card/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/ci/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/the-template/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/auxiliary-features/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/promotions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gitpitch.com/docs/tags/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speaker Support on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/speaker-features/</link>
+    <description>Recent content in Speaker Support on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/speaker-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speaker Notes</title>
+      <link>https://gitpitch.com/docs/speaker-features/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/speaker-features/notes/</guid>
+      <description>GitPitch slideshow presentations support a number of great features tailored specifically for conference speakers and training instructors.
+ Speaker Notes  Speaker Notes Fragments  Speaker Notes Preview  Speaker Window  Speaker Remote Control   Speaker Notes Speaker notes give you a way to add private annotations to slides. This feature lets you leave hints, tips, and reminders on specific slides that can help you stay on-track and on-point during a live presentation.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Window</title>
+      <link>https://gitpitch.com/docs/speaker-features/window/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/speaker-features/window/</guid>
+      <description>Speaker Window  Disable Speaker Window   Speaker Window The speaker window provides a unique view of any slideshow presentation - tailored for use during live presentations. The following features are available:
+ Displays the current slide in the deck Displays speaker notes for the current slide Displays a preview for the next slide in the deck Displays a timer and clock to help keep track of time Forwards all navigations to the main slideshow presentation window  The speaker window can be launched for all online and offline presentations by pressing the S key within any GitPitch slideshow presentation.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Remote Control</title>
+      <link>https://gitpitch.com/docs/speaker-features/remote-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/speaker-features/remote-control/</guid>
+      <description>GitPitch slideshow presentations support navigation between slides using remote control devices such as Logitech, Kensington, etc. See the Remote Control Setting documentation for further details.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Demo Gods</title>
+      <link>https://gitpitch.com/docs/speaker-features/demo-gods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/speaker-features/demo-gods/</guid>
+      <description>If you have ever given a live presentation at a conference or meetup then you know only too well that the number of problems you experience with your slides, microphone, remote control device, etc. is directly proportional to the size and importance of your audience ;-)
+GitPitch understands your pain. And offers the following pain-killers for common scenarios:
+ When you can present your slides using your own Laptop   When you must present your slides using the Conference Laptop  When you must present your slides as Microsoft PowerPoint PPTX or PDF   When you can present your slides using your own Laptop Depending on the conference Wifi to serve your slides reliably when standing on stage in front of a live audience can be a little like walking a tightrope without the benefit of a safety net.</description>
+    </item>
+    
+  </channel>
+</rss>

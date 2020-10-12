@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/getting-started/</link>
+    <description>Recent content in Getting Started on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In 60 Seconds</title>
+      <link>https://gitpitch.com/docs/getting-started/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/getting-started/tutorial/</guid>
+      <description>A Very Short Tutorial By far the best way to create, preview, and present a GitPitch markdown presentation is to use GitPitch Desktop . But for a quick introduction to GitPitch without needing to download anything you can work directly with a simple markdown file within any respository on Git.
+So if you have an account on GitHub, GitLab, or Bitbucket follow along with this very short, hands-on tutorial:</description>
+    </item>
+    
+    <item>
+      <title>PITCHME.md</title>
+      <link>https://gitpitch.com/docs/getting-started/pitchme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/getting-started/pitchme/</guid>
+      <description>The README.md Convention If you have ever worked with Git - on GitHub, GitLab, or Bitbucket - you are probably already familiar with the README.md convention. This convention automatically turns any README.md file found within a Git repository into nicely rendered documentation.
+This convention gives developers a simple and convenient way to document any project.
+The PITCHME.md Convention GitPitch introduces a brand new convention for all Git users, the PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>Slide Delimiters</title>
+      <link>https://gitpitch.com/docs/getting-started/delimiters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/getting-started/delimiters/</guid>
+      <description>GitPitch slideshow presentation content is created using markdown. To split markdown content into a series of slides, you must use a special slide delimiter syntax. Each delimiter denotes the start of a new slide.
+To create a new slide use the following delimiter syntax within your PITCHME.md file:
+--- # Hello, World! As both horizontal (default) and vertical navigation is supported within GitPitch slide decks each navigation type has it&amp;rsquo;s own unique delimiter syntax.</description>
+    </item>
+    
+  </channel>
+</rss>

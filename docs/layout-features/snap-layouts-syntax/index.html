@@ -1,0 +1,6557 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="https://gitpitch.com/docs/images/favicon.png" type="image/png">
+
+    <title>Snap Layouts Syntax :: Markdown Presentations for Developers</title>
+
+    
+    <link href="https://gitpitch.com/docs/css/nucleus.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/fontawesome-all.min.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/hybrid.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/featherlight.min.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/perfect-scrollbar.min.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/auto-complete.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/atom-one-dark-reasonable.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/theme.css?1602520912" rel="stylesheet">
+    <link href="https://gitpitch.com/docs/css/hugo-theme.css?1602520912" rel="stylesheet">
+    
+      <link href="https://gitpitch.com/docs/css/theme-black.css?1602520912" rel="stylesheet">
+    
+
+    <script src="https://gitpitch.com/docs/js/jquery-3.3.1.min.js?1602520912"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/layout-features/snap-layouts-syntax/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="https://gitpitch.com/docs/images/logo.png" />
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://gitpitch.com/docs/js/lunr.min.js?1602520912"></script>
+<script type="text/javascript" src="https://gitpitch.com/docs/js/auto-complete.js?1602520912"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/gitpitch.com\/docs\/";
+    
+</script>
+<script type="text/javascript" src="https://gitpitch.com/docs/js/search.js?1602520912"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/getting-started/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/getting-started/">
+          <b>1. </b>Getting Started
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/getting-started/tutorial/" title="In 60 Seconds" class="dd-item ">
+        <a href="https://gitpitch.com/docs/getting-started/tutorial/">
+        In 60 Seconds
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/getting-started/pitchme/" title="PITCHME.md" class="dd-item ">
+        <a href="https://gitpitch.com/docs/getting-started/pitchme/">
+        PITCHME.md
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/getting-started/delimiters/" title="Slide Delimiters" class="dd-item ">
+        <a href="https://gitpitch.com/docs/getting-started/delimiters/">
+        Slide Delimiters
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/work-offline/" title="Work Offline" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/work-offline/">
+          <b>2. </b>Work Offline
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop/" title="GitPitch Desktop" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop/">
+        GitPitch Desktop
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop-launch/" title="GitPitch Desktop Launch" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop-launch/">
+        GitPitch Desktop Launch
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop-shortcuts/" title="GitPitch Desktop Shortcuts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop-shortcuts/">
+        GitPitch Desktop Shortcuts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop-whiteboard/" title="GitPitch Desktop Whiteboard" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop-whiteboard/">
+        GitPitch Desktop Whiteboard
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop-image-tools/" title="GitPitch Desktop Image Tools" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop-image-tools/">
+        GitPitch Desktop Image Tools
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/desktop-faq/" title="GitPitch Desktop FAQ" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/desktop-faq/">
+        GitPitch Desktop FAQ
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-offline/documentation/" title="Offline Documentation" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-offline/documentation/">
+        Offline Documentation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/work-online/" title="Share Online" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/work-online/">
+          <b>3. </b>Share Online
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-online/basics/" title="Online Basics" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-online/basics/">
+        Online Basics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-online/urls/" title="Slideshow URLs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-online/urls/">
+        Slideshow URLs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/work-online/do-more-with-git/" title="Do More With Git" class="dd-item ">
+        <a href="https://gitpitch.com/docs/work-online/do-more-with-git/">
+        Do More With Git
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/themes/" title="Custom Themes" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/themes/">
+          <b>4. </b>Custom Themes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/default/" title="The Theme Builder" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/default/">
+        The Theme Builder
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/template/" title="The Theme Template" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/template/">
+        The Theme Template
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/custom/" title="Theme Custom CSS" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/custom/">
+        Theme Custom CSS
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/custom-fonts/" title="Theme Custom Fonts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/custom-fonts/">
+        Theme Custom Fonts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/css-utility-styles/" title="Theme Utility Styles" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/css-utility-styles/">
+        Theme Utility Styles
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/themes/demos/" title="Theme Template Demos" class="dd-item ">
+        <a href="https://gitpitch.com/docs/themes/demos/">
+        Theme Template Demos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/layout-features/" title="Custom Layouts" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/layout-features/">
+          <b>5. </b>Custom Layouts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/automatic-layout/" title="Automatic Layout" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/automatic-layout/">
+        Automatic Layout
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts/" title="Snap Layouts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts/">
+        Snap Layouts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-syntax/" title="Snap Layouts Syntax" class="dd-item active">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-syntax/">
+        Snap Layouts Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-example-1/" title="Snap Layouts Example 1" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-1/">
+        Snap Layouts Example 1
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-example-2/" title="Snap Layouts Example 2" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-2/">
+        Snap Layouts Example 2
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-example-3/" title="Snap Layouts Example 3" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-3/">
+        Snap Layouts Example 3
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-example-4/" title="Snap Layouts Example 4" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-4/">
+        Snap Layouts Example 4
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-example-5/" title="Snap Layouts Example 5" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-5/">
+        Snap Layouts Example 5
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/layout-features/snap-layouts-slide-transitions/" title="Snap Layouts Slide Transitions" class="dd-item ">
+        <a href="https://gitpitch.com/docs/layout-features/snap-layouts-slide-transitions/">
+        Snap Layouts Slide Transitions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/markdown-features/" title="Work with Markdown" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/markdown-features/">
+          <b>6. </b>Work with Markdown
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/basics/" title="Markdown Basics" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/basics/">
+        Markdown Basics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/text-manipulation/" title="Markdown Text" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/text-manipulation/">
+        Markdown Text
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/fragments/" title="Markdown Fragments" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/fragments/">
+        Markdown Fragments
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/widgets/" title="Markdown Widgets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/widgets/">
+        Markdown Widgets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/list-widgets/" title="Markdown List Widgets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/list-widgets/">
+        Markdown List Widgets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/pro-widgets/" title="Markdown Pro Widgets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/pro-widgets/">
+        Markdown Pro Widgets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/image-manipulation/" title="Markdown Pro Images" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/image-manipulation/">
+        Markdown Pro Images
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/markdown-features/shortcuts/" title="Markdown Shortcuts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/markdown-features/shortcuts/">
+        Markdown Shortcuts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/code-features/" title="Work with Code" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/code-features/">
+          <b>7. </b>Work with Code
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/fenced-blocks/" title="Fenced Code Blocks" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/fenced-blocks/">
+        Fenced Code Blocks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/source-files/" title="Source Code Files" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/source-files/">
+        Source Code Files
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/gists/" title="GitHub GIST Snippets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/gists/">
+        GitHub GIST Snippets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/presenting/" title="Live Code Presenting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/presenting/">
+        Live Code Presenting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/syntax-highlighting/" title="Code Highlighting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/syntax-highlighting/">
+        Code Highlighting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/monospaced-fonts/" title="Monospaced Code Fonts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/monospaced-fonts/">
+        Monospaced Code Fonts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/diff/" title="Git Diff for Commit" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/diff/">
+        Git Diff for Commit
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/line-numbers/" title="Code Line Numbers" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/line-numbers/">
+        Code Line Numbers
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/pro-code-widgets/" title="Pro Code Widgets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/pro-code-widgets/">
+        Pro Code Widgets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/pro-code-zoom/" title="Pro Code ZOOM" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/pro-code-zoom/">
+        Pro Code ZOOM
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/pro-code-revealing/" title="Pro Code Revealing" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/pro-code-revealing/">
+        Pro Code Revealing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/pro-code-filters/" title="Pro Code Filters" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/pro-code-filters/">
+        Pro Code Filters
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/pro-code-power-properties/" title="Pro Code Power Properties" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/pro-code-power-properties/">
+        Pro Code Power Properties
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/code-features/terminal-sessions/" title="Pro Terminal Sessions" class="dd-item ">
+        <a href="https://gitpitch.com/docs/code-features/terminal-sessions/">
+        Pro Terminal Sessions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/image-features/" title="Work with Images" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/image-features/">
+          <b>8. </b>Work with Images
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/inline/" title="Inline Images" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/inline/">
+        Inline Images
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/image-manipulation/" title="Inline Image Manipulation" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/image-manipulation/">
+        Inline Image Manipulation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/background/" title="Background Images" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/background/">
+        Background Images
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/scaling/" title="Background Scaling" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/scaling/">
+        Background Scaling
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/positioning/" title="Background Positioning" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/positioning/">
+        Background Positioning
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/colors/" title="Background Colors" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/colors/">
+        Background Colors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/repeat/" title="Background Repeat" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/repeat/">
+        Background Repeat
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/animations/" title="Background Animations" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/animations/">
+        Background Animations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/opacity/" title="Pro Background Opacity" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/opacity/">
+        Pro Background Opacity
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/image-features/size-limits/" title="Image Size Limits" class="dd-item ">
+        <a href="https://gitpitch.com/docs/image-features/size-limits/">
+        Image Size Limits
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/diagram-features/" title="Work with Diagrams" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/diagram-features/">
+          <b>9. </b>Work with Diagrams
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/sketch-whiteboard/" title="Sketch Whiteboard" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/sketch-whiteboard/">
+        Sketch Whiteboard
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/cloud-diagrams/" title="Cloud Diagram Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/cloud-diagrams/">
+        Cloud Diagram Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/mermaid-diagrams/" title="Mermaid Diagram Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/mermaid-diagrams/">
+        Mermaid Diagram Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/uml-diagrams/" title="UML Diagram Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/uml-diagrams/">
+        UML Diagram Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/graphviz-diagrams/" title="Graphviz/DOT Diagrams" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/graphviz-diagrams/">
+        Graphviz/DOT Diagrams
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/diagram-features/charts/" title="Line Bar Radar Charts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/diagram-features/charts/">
+        Line Bar Radar Charts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/math-features/" title="Work with Math" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/math-features/">
+          <b>10. </b>Work with Math
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/math-features/math-formulas/" title="MathJax Formulas" class="dd-item ">
+        <a href="https://gitpitch.com/docs/math-features/math-formulas/">
+        MathJax Formulas
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/math-features/latex-math/" title="LaTeX &#43; AsciiMath Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/math-features/latex-math/">
+        LaTeX &#43; AsciiMath Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/rich-media-features/" title="Work with Rich Media" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/rich-media-features/">
+          <b>11. </b>Work with Rich Media
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/color-backgrounds/" title="Color Backgrounds" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/color-backgrounds/">
+        Color Backgrounds
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/font-awesome/" title="Font Awesome 5 Icons" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/font-awesome/">
+        Font Awesome 5 Icons
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/tweets/" title="Tweet Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/tweets/">
+        Tweet Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/emojis/" title="Emoji Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/emojis/">
+        Emoji Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/table-data/" title="Table Data Widget" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/table-data/">
+        Table Data Widget
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/inline-videos/" title="Inline Videos" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/inline-videos/">
+        Inline Videos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/background-videos/" title="Background Videos" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/background-videos/">
+        Background Videos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/rich-media-features/offline-video-streaming/" title="Offline Video Streaming" class="dd-item ">
+        <a href="https://gitpitch.com/docs/rich-media-features/offline-video-streaming/">
+        Offline Video Streaming
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/citations/" title="Work with Citations" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/citations/">
+          <b>12. </b>Work with Citations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/citations/bibliography/" title="Citations &#43; Bibliography" class="dd-item ">
+        <a href="https://gitpitch.com/docs/citations/bibliography/">
+        Citations &#43; Bibliography
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/speaker-features/" title="Speaker Support" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/speaker-features/">
+          <b>13. </b>Speaker Support
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/speaker-features/notes/" title="Speaker Notes" class="dd-item ">
+        <a href="https://gitpitch.com/docs/speaker-features/notes/">
+        Speaker Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/speaker-features/window/" title="Speaker Window" class="dd-item ">
+        <a href="https://gitpitch.com/docs/speaker-features/window/">
+        Speaker Window
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/speaker-features/remote-control/" title="Speaker Remote Control" class="dd-item ">
+        <a href="https://gitpitch.com/docs/speaker-features/remote-control/">
+        Speaker Remote Control
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/speaker-features/demo-gods/" title="Speaker Demo Gods" class="dd-item ">
+        <a href="https://gitpitch.com/docs/speaker-features/demo-gods/">
+        Speaker Demo Gods
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/settings/" title="PITCHME.yaml Settings" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/settings/">
+          <b>14. </b>PITCHME.yaml Settings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/pitchme/" title="PITCHME.yaml" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/pitchme/">
+        PITCHME.yaml
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/theme/" title="Theme Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/theme/">
+        Theme Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/custom-theme/" title="Custom Theme Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/custom-theme/">
+        Custom Theme Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/theme-builder/" title="Theme Builder Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/theme-builder/">
+        Theme Builder Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/highlight/" title="Code Highlight Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/highlight/">
+        Code Highlight Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/line-numbers/" title="Code Line Numbers Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/line-numbers/">
+        Code Line Numbers Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/layout/" title="Layout Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/layout/">
+        Layout Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/logo/" title="Logo Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/logo/">
+        Logo Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/favicon/" title="Favicon Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/favicon/">
+        Favicon Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/background/" title="Background Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/background/">
+        Background Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/transition/" title="Transition Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/transition/">
+        Transition Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/title/" title="Title Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/title/">
+        Title Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/footnote/" title="Footnote Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/footnote/">
+        Footnote Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/published/" title="Published Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/published/">
+        Published Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/loop/" title="Loop Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/loop/">
+        Loop Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/lang/" title="Lang Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/lang/">
+        Lang Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/rtl/" title="RTL Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/rtl/">
+        RTL Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/controls-layout/" title="Controls Layout Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/controls-layout/">
+        Controls Layout Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/print/" title="Print Settings" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/print/">
+        Print Settings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/mouse-wheel/" title="Mouse Wheel Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/mouse-wheel/">
+        Mouse Wheel Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/remote-control/" title="Remote Control Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/remote-control/">
+        Remote Control Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/eager-loading/" title="Eager Loading Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/eager-loading/">
+        Eager Loading Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/charts-plugin/" title="Charts Plugin Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/charts-plugin/">
+        Charts Plugin Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/maths-plugin/" title="Maths Plugin Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/maths-plugin/">
+        Maths Plugin Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/google-analytics/" title="Google Analytics Setting" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/google-analytics/">
+        Google Analytics Setting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/settings/twitter-card/" title="Twitter Card Settings" class="dd-item ">
+        <a href="https://gitpitch.com/docs/settings/twitter-card/">
+        Twitter Card Settings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/git/" title="Modular Slideshows" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/git/">
+          <b>15. </b>Modular Slideshows
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/git/branch-many-slideshows/" title="Unlimited Slideshows" class="dd-item ">
+        <a href="https://gitpitch.com/docs/git/branch-many-slideshows/">
+        Unlimited Slideshows
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/git/branch-shared-assets/" title="Slideshow Shared Assets" class="dd-item ">
+        <a href="https://gitpitch.com/docs/git/branch-shared-assets/">
+        Slideshow Shared Assets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/git/branch-shared-markdown/" title="Modular Markdown" class="dd-item ">
+        <a href="https://gitpitch.com/docs/git/branch-shared-markdown/">
+        Modular Markdown
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/git/branch-modular-slideshows/" title="Modular Slideshows" class="dd-item ">
+        <a href="https://gitpitch.com/docs/git/branch-modular-slideshows/">
+        Modular Slideshows
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/pro-features/" title="Pro Features Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/pro-features/">
+          <b>16. </b>Pro Features Guide
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop/" title="GitPitch Desktop" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop/">
+        GitPitch Desktop
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop-launch/" title="GitPitch Desktop Launch" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop-launch/">
+        GitPitch Desktop Launch
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop-shortcuts/" title="GitPitch Desktop Shortcuts" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop-shortcuts/">
+        GitPitch Desktop Shortcuts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop-whiteboard/" title="GitPitch Desktop Whiteboard" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop-whiteboard/">
+        GitPitch Desktop Whiteboard
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop-image-tools/" title="GitPitch Desktop Image Tools" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop-image-tools/">
+        GitPitch Desktop Image Tools
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/desktop-faq/" title="GitPitch Desktop FAQ" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/desktop-faq/">
+        GitPitch Desktop FAQ
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/security/" title="GitPitch Pro Publishing" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/security/">
+        GitPitch Pro Publishing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/surveys/" title="GitPitch Pro Surveys" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/surveys/">
+        GitPitch Pro Surveys
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/audio/" title="GitPitch Pro Audio Decks" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/audio/">
+        GitPitch Pro Audio Decks
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/code/" title="GitPitch Pro Code Features" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/code/">
+        GitPitch Pro Code Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/image/" title="GitPitch Pro Image Features" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/image/">
+        GitPitch Pro Image Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/pro-features/power/" title="GitPitch Pro Power Features" class="dd-item ">
+        <a href="https://gitpitch.com/docs/pro-features/power/">
+        GitPitch Pro Power Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/enterprise/" title="Enterprise Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/enterprise/">
+          <b>17. </b>Enterprise Guide
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/license/" title="Enterprise Licensing" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/license/">
+        Enterprise Licensing
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/features/" title="Enterprise Features" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/features/">
+        Enterprise Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/prerequisites/" title="Deployment Prerequisites" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/prerequisites/">
+        Deployment Prerequisites
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/install/" title="Install GitPitch Enterprise" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/install/">
+        Install GitPitch Enterprise
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/launch/" title="Launch GitPitch Enterprise" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/launch/">
+        Launch GitPitch Enterprise
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/enterprise/config/" title="Config GitPitch Enterprise" class="dd-item ">
+        <a href="https://gitpitch.com/docs/enterprise/config/">
+        Config GitPitch Enterprise
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/ci/" title="GitPitch CI Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/ci/">
+          <b>18. </b>GitPitch CI Guide
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ci/intro/" title="GitPitch CI Intro" class="dd-item ">
+        <a href="https://gitpitch.com/docs/ci/intro/">
+        GitPitch CI Intro
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ci/circleci/" title="Launch on CircleCI" class="dd-item ">
+        <a href="https://gitpitch.com/docs/ci/circleci/">
+        Launch on CircleCI
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/ci/github-actions/" title="Launch on GitHub Actions" class="dd-item ">
+        <a href="https://gitpitch.com/docs/ci/github-actions/">
+        Launch on GitHub Actions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/the-template/" title="Slide Design Templates" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/the-template/">
+          <b>19. </b>Slide Design Templates
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/introduction/" title="Introduction" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/introduction/">
+        Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/slide-designs/" title="Slide Design Categories" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/slide-designs/">
+        Slide Design Categories
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/solid-slide-designs/" title="Solid BG Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/solid-slide-designs/">
+        Solid BG Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/gradient-slide-designs/" title="Gradient BG Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/gradient-slide-designs/">
+        Gradient BG Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/horizontal-slide-designs/" title="Horizontal BG Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/horizontal-slide-designs/">
+        Horizontal BG Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/vertical-slide-designs/" title="Vertical BG Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/vertical-slide-designs/">
+        Vertical BG Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/angled-slide-designs/" title="Angled BG Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/angled-slide-designs/">
+        Angled BG Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/unordered-list-slide-designs/" title="Unordered List Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/unordered-list-slide-designs/">
+        Unordered List Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/the-template/ordered-list-slide-designs/" title="Ordered List Slide Designs" class="dd-item ">
+        <a href="https://gitpitch.com/docs/the-template/ordered-list-slide-designs/">
+        Ordered List Slide Designs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/auxiliary-features/" title="Auxiliary Features" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/auxiliary-features/">
+          <b>20. </b>Auxiliary Features
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/auxiliary-features/google-analytics/" title="Google Analytics" class="dd-item ">
+        <a href="https://gitpitch.com/docs/auxiliary-features/google-analytics/">
+        Google Analytics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/auxiliary-features/table-of-contents/" title="Auto-Generated TOC" class="dd-item ">
+        <a href="https://gitpitch.com/docs/auxiliary-features/table-of-contents/">
+        Auto-Generated TOC
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/auxiliary-features/keyboard-controls/" title="Keyboard Controls" class="dd-item ">
+        <a href="https://gitpitch.com/docs/auxiliary-features/keyboard-controls/">
+        Keyboard Controls
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/auxiliary-features/slideshow-embedding/" title="Slideshow Embedding" class="dd-item ">
+        <a href="https://gitpitch.com/docs/auxiliary-features/slideshow-embedding/">
+        Slideshow Embedding
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/auxiliary-features/revealjs/" title="Built on Reveal.js" class="dd-item ">
+        <a href="https://gitpitch.com/docs/auxiliary-features/revealjs/">
+        Built on Reveal.js
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/promotions/" title="GitPitch Promotions" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://gitpitch.com/docs/promotions/">
+          <b>21. </b>GitPitch Promotions
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/promotions/microsoft-mvp/" title="Microsoft MVP" class="dd-item ">
+        <a href="https://gitpitch.com/docs/promotions/microsoft-mvp/">
+        Microsoft MVP
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p><i class="fas fa-heart"></i> Markdown Slide Decks for Developers</p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="https://schema.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://gitpitch.com/docs/'>GitPitch Documentation</a> > <a href='https://gitpitch.com/docs/layout-features/'>Custom Layouts</a> > Snap Layouts Syntax
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Snap Layouts Syntax
+            </h1>
+          
+
+        
+
+
+
+<hr>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="#snap-layouts-basic-syntax">Snap Layouts Basic Syntax</a>
+</li>
+<li><a href="#snap-layouts-3x3-grid">Snap Layouts 3x3 Grid</a>
+</li>
+<li><a href="#snap-layouts-content-positioning">Snap Layouts Content Positioning</a>
+</li>
+<li><a href="#snap-layouts-content-sizing">Snap Layouts Content Sizing</a>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="snap-layouts-basic-syntax">Snap Layouts Basic Syntax</h4>
+<p><img src="https://gitpitch.com/docs/images/snap-layouts-basic-syntax.jpg" alt="SNAP LAYOUTS BASIC SYNTAX"></p>
+<p>To activate <em>snap-layouts</em> for any block of markdown on your slide
+simply wrap the block in opening <strong>@snap</strong> and closing <strong>@snapend</strong>
+tags, as shown in the above screenshot.</p>
+<ol>
+<li>The first property on the opening tag always indicates a <a href="#snap-layouts-content-positioning">snap-position</a>
+
+on the <a href="#snap-layouts-3x3-grid">snap-layouts grid</a>
+.</li>
+<li>The second property is typically a <a href="https://gitpitch.com/docs/themes/css-utility-styles">span-xxx</a>
+ value to control the <a href="#snap-layouts-content-sizing">width and height</a>
+ of the snapped content.</li>
+</ol>
+<p>The following sections introduce the <em>snap-layouts</em> grid itself, plus
+positioning and sizing controls for <em>snapped</em> content within the grid.</p>
+<!-- raw HTML omitted -->
+<h4 id="snap-layouts-3x3-grid">Snap Layouts 3x3 Grid</h4>
+<p><img src="https://gitpitch.com/docs/images/snap-layouts-grid.jpg" alt="SNAP LAYOUTS GRID"></p>
+<p>The <em>snap-layouts</em> system makes use of a 3x3 grid. We can see here
+how that grid system maps onto the area for a slide. Each
+grid-area is a possible target
+<a href="#snap-layouts-content-positioning">snap-position</a>
+ for <em>snapped</em>
+content on your slide. Using <em>snap-layouts</em>
+<a href="#snap-layouts-content-sizing">content sizing</a>
+ you can then control
+what portion of the slide is used to render specific blocks
+of <em>snapped</em> content.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="snap-layouts-content-positioning">Snap Layouts Content Positioning</h4>
+<p><img src="https://gitpitch.com/docs/images/snap-layouts-grid-compass.jpg" alt="SNAP LAYOUTS GRID"></p>
+<p>Each distinct grid-area is addressed using <em>compass coordinates</em>,
+for example, north, south, east, west, etc. The following markdown
+snippet demonstrates the use of <em>snap-layouts</em> to position content
+in the <strong>west</strong> area of the grid:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">
+@snap[west span-50]
+<span style="color:#75715e">### Architecture Diagram
+</span><span style="color:#75715e"></span>![<span style="color:#f92672">IMAGE</span>](<span style="color:#a6e22e">assets/img/diagram.png</span>)
+@snapend
+
+</code></pre></div><p>To relocate this sample <em>snapped</em> content from the <strong>west</strong> to the
+<strong>north-east</strong> position on your slide you need simply update the
+<a href="#snap-layouts-content-positioning">snap-position</a>
+ property on the
+opening <strong>@snap</strong> tag as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">
+@snap[north-east span-50]
+<span style="color:#75715e">### Architecture Diagram
+</span><span style="color:#75715e"></span>![<span style="color:#f92672">IMAGE</span>](<span style="color:#a6e22e">assets/img/diagram.png</span>)
+@snapend
+
+</code></pre></div><p>The full set of supported <em>snap-positions</em> are as follows:</p>
+<ul>
+<li>midpoint</li>
+<li>north</li>
+<li>south</li>
+<li>east</li>
+<li>west</li>
+<li>north-east</li>
+<li>north-west</li>
+<li>south-east</li>
+<li>south-west</li>
+</ul>
+<p>Note, the <strong>midpoint</strong> snap-position target can be used to center
+<em>snapped</em> content of your slide. The use of a <em>snap-position</em> as the
+opening property on an opening <strong>@snap</strong> tag is required. It is also
+worth noting that these property names are case-sensitive.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h4 id="snap-layouts-content-sizing">Snap Layouts Content Sizing</h4>
+<p>By default, the space used to render content on your slides is
+determined by the following:</p>
+<ol>
+<li>The content itself, for example, the number of words on your slide.</li>
+<li>The <a href="https://gitpitch.com/docs/themes/default">fixed theme</a>
+ active for your slide deck.</li>
+<li>The <em>aspect ratio</em> of non-text based content such as images, etc.</li>
+</ol>
+<p>It is important to understand that there are limits to the amount of
+content you can add to a slide before it will overflow
+the slide. For example, if you add a lengthy paragraph of text to your
+slide then unless you actively take steps to constrain the size of
+that content it is very likely that your text is going to overflow.
+This can be readily understood when you consider the impact of the
+active <a href="https://gitpitch.com/docs/themes/default">fixed theme</a>
+ for your slide deck.</p>
+<p>The <em>fixed theme</em> for your slide deck determines the default
+font-sizes, padding, margins, etc. used to render your content.
+As a result, these style rules have a major impact on how much slide
+space is used to render your content. It is worth noting that
+you do have the ability to override these defaults with your own
+<a href="https://gitpitch.com/docs/themes/custom">custom style rules</a>
+.</p>
+<p>Non-text based content such as images come in all shapes and sizes.
+But the <em>aspect ratio</em> of your slides is fixed at <em>16:9</em>. So if you
+are using images with an aspect ratio that differs from your
+slide deck then you may need to take steps to constrain that
+content to fit within the bounds of your slides.</p>
+<p>Thankfully <em>snap-layouts</em> makes it very simple to take complete
+control over sizing of content on your slides. Lets look again at
+the sample slide markdown from above:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">
+@snap[west span-50]
+<span style="color:#75715e">### Architecture Diagram
+</span><span style="color:#75715e"></span>![<span style="color:#f92672">IMAGE</span>](<span style="color:#a6e22e">assets/img/diagram.png</span>)
+@snapend
+
+</code></pre></div><p>The combination of the <strong>west</strong> and <a href="https://gitpitch.com/docs/themes/css-utility-styles">span-50</a>
+
+properties ensure this block of <em>snapped</em> content uses just 50% of the
+available width, starting from the left side of the slide, to render
+this content. Both the markdown heading text and the accompanying image
+are automatically constrained by fit within this region of the grid.</p>
+<p>We could easily adjust this value of the <strong>span-xxx</strong> property to
+increase or decrease the amount of space given to the <em>snapped</em>
+content on our sample slide, for example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">
+@snap[west span-33]
+<span style="color:#75715e">### Architecture Diagram
+</span><span style="color:#75715e"></span>![<span style="color:#f92672">IMAGE</span>](<span style="color:#a6e22e">assets/img/diagram.png</span>)
+@snapend
+
+</code></pre></div><p>As a general rule, by constraining the width of <em>snapped</em> content
+using a <em>span</em> property, the height of that content is adjusted proportionally. You can learn many different way to take control
+of the size of content on your slides in the
+<a href="https://gitpitch.com/docs/themes/css-utility-styles">CSS Utility Styles Guide</a>
+.</p>
+<p>The <a href="https://gitpitch.com/docs/layout-features/snap-layouts-example-1">next chapter</a>
+ in
+this guide provides us with our first concrete example of
+slide <em>content-sizing</em> on the <em>snap-layouts</em> grid.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://gitpitch.com/docs/layout-features/snap-layouts/" title="Snap Layouts"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://gitpitch.com/docs/layout-features/snap-layouts-example-1/" title="Snap Layouts Example 1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://gitpitch.com/docs/js/clipboard.min.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/perfect-scrollbar.min.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/perfect-scrollbar.jquery.min.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/jquery.sticky.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/featherlight.min.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/highlight.pack.js?1602520912"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://gitpitch.com/docs/js/modernizr.custom-3.6.0.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/learn.js?1602520912"></script>
+    <script src="https://gitpitch.com/docs/js/hugo-learn.js?1602520912"></script>
+
+    <link href="https://gitpitch.com/docs/mermaid/mermaid.css?1602520912" rel="stylesheet" />
+    <script src="https://gitpitch.com/docs/mermaid/mermaid.js?1602520912"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-80973712-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+

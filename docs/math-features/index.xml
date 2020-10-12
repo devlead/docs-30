@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work with Math on Markdown Presentations for Developers</title>
+    <link>https://gitpitch.com/docs/math-features/</link>
+    <description>Recent content in Work with Math on Markdown Presentations for Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gitpitch.com/docs/math-features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MathJax Formulas</title>
+      <link>https://gitpitch.com/docs/math-features/math-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/math-features/math-formulas/</guid>
+      <description>Add beautifully rendered math formulas to any slideshow presentation using the following:
+ MathJax Support or LaTeX &amp;#43; AsciiMath Widget   This guide documents MathJax Support via the MathJax plugin. MathJax is a JavaScript display engine for mathematics with support for LaTeX, MathML and other equation markup.
+By default, this plugin is disabled. To enable this plugin for your presentation, see MathJax plugin activation .
+ Learn By Example  Learn By Example within Snap Layouts  MathJax Plugin Activation  MathJax Backticks Syntax  LaTeX &amp;#43; AsciiMath Widget   Learn By Example This PITCHME.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX &#43; AsciiMath Widget</title>
+      <link>https://gitpitch.com/docs/math-features/latex-math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gitpitch.com/docs/math-features/latex-math/</guid>
+      <description>Activate a GitPitch Paid Plan to unlock LaTeX + AsciiMath Widget support.
+  UML Widget for LaTeX &amp;#43; AsciiMath  Learn By Example - LaTeX Math  Learn By Example - Ascii Math   UML Widget for LaTeX + AsciiMath The UML Widget provides some excellent extensions for rendering math formulas on any slide. The same conventions, caching policies, and @uml widget syntax apply. This support is provided as an lightweight alternative to using MathJax Formulas .</description>
+    </item>
+    
+  </channel>
+</rss>
