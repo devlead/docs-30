@@ -2,154 +2,154 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work with Code on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/code-features/</link>
+    <link>https://www.devlead.se/docs-30/code-features/</link>
     <description>Recent content in Work with Code on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/code-features/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/code-features/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Fenced Code Blocks</title>
-      <link>https://gitpitch.com/docs/code-features/fenced-blocks/</link>
+      <link>https://www.devlead.se/docs-30/code-features/fenced-blocks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/fenced-blocks/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/fenced-blocks/</guid>
       <description>Introducing Fenced Code Blocks (FCB)  Simple FCB Slide Example  Snap Layouts FCB Example  Pro Code Zoom FCB Example  The Importance of Code Language Hints  Code Language Hints Quick Reference Table   Introducing Fenced Code Blocks A block of source code can be added directly to any slide within your PITCHME.md using triple back-ticks markdown syntax. For a detailed description of this triple back-ticks syntax, see the GitHub Fenced Code Blocks guide.</description>
     </item>
-    
+
     <item>
       <title>Source Code Files</title>
-      <link>https://gitpitch.com/docs/code-features/source-files/</link>
+      <link>https://www.devlead.se/docs-30/code-features/source-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/source-files/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/source-files/</guid>
       <description>Introducing the Source Code Delimiter (SCD)  Simple SCD Slide Example  Pro Code Zoom SCD Example  The Importance of Code Language Hints   Introducing the Source Code Delimiter Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special source code delimiter syntax allows the loading of source code from any file onto your slide using the following delimiter options:</description>
     </item>
-    
+
     <item>
       <title>GitHub GIST Snippets</title>
-      <link>https://gitpitch.com/docs/code-features/gists/</link>
+      <link>https://www.devlead.se/docs-30/code-features/gists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/gists/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/gists/</guid>
       <description>Introducing the GitHub GIST Delimiter (GGD)  Simple GGD Slide Example  Pro Code Zoom GGD Example  The Importance of Code Language Hints   Introducing the GitHub GIST Delimiter Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special GIST delimiter syntax allows the loading of source code from any GitHub GIST onto your slide using the following delimiter options:</description>
     </item>
-    
+
     <item>
       <title>Live Code Presenting</title>
-      <link>https://gitpitch.com/docs/code-features/presenting/</link>
+      <link>https://www.devlead.se/docs-30/code-features/presenting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/presenting/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/presenting/</guid>
       <description>Live code presenting can be activated for any code block on any slide - whether the code originated as a fenced code-block , a source code file , or a GitHub GIST .
  Introducing Live Code Presenting  Live Code Presenting Example  Live Code Presenting Example with Annotations  Live Code Presenting Example with Pro Code Zoom  Live Code Presenting Fragment Syntax  The Importance of Code Language Hints   Introducing Live Code Presenting Live code presenting lets you focus-on and step-through code directly on your slides.</description>
     </item>
-    
+
     <item>
       <title>Code Highlighting</title>
-      <link>https://gitpitch.com/docs/code-features/syntax-highlighting/</link>
+      <link>https://www.devlead.se/docs-30/code-features/syntax-highlighting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/syntax-highlighting/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/syntax-highlighting/</guid>
       <description>Code syntax highlighting is a feature that controls the visual appearance of code rendered on your slides. GitPitch currently supports 185 programming languages and 89 distinct visual styles.
  Introducing Code Highlighting  Code Highlighting Sample Slides     Introducing Code Highlighting By activating the highlight setting in your PITCHME.yaml for your slide deck you can activate a custom syntax highlighting style for code rendered on your slides.</description>
     </item>
-    
+
     <item>
       <title>Monospaced Code Fonts</title>
-      <link>https://gitpitch.com/docs/code-features/monospaced-fonts/</link>
+      <link>https://www.devlead.se/docs-30/code-features/monospaced-fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/monospaced-fonts/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/monospaced-fonts/</guid>
       <description>Monospaced code fonts deliver beautiful typography for code rendered on your slides.
  Introducing Monospaced Code Fonts  Monospaced Code Fonts Sample Slides   Introducing Monospaced Code Fonts Monospaced code fonts are a feature of The Theme Template . As such, this feature is only available to slide decks that activate the theme template. Any slide decks using a deprecated theme can not take advantage of this feature.</description>
     </item>
-    
+
     <item>
       <title>Git Diff for Commit</title>
-      <link>https://gitpitch.com/docs/code-features/diff/</link>
+      <link>https://www.devlead.se/docs-30/code-features/diff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/diff/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/diff/</guid>
       <description>GitPitch provides a powerful markdown widget that can be used to generate and render a diff for any commit on any repository on github.com.
  Diff for Commit within any GitHub Repository  Diff for Commit within the Presentation Repository  Disable Automatic Code Presenting on Diff  Offline Git Diff Support    This feature is GitHub only. Generating diffs for content on GitLab and Bitbucket is not supported.</description>
     </item>
-    
+
     <item>
       <title>Code Line Numbers</title>
-      <link>https://gitpitch.com/docs/code-features/line-numbers/</link>
+      <link>https://www.devlead.se/docs-30/code-features/line-numbers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/line-numbers/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/line-numbers/</guid>
       <description>See the Code Line Numbers Setting documentation for details about activating the display of line-numbers alongside code rendered on slides within your presentation.</description>
     </item>
-    
+
     <item>
       <title>Pro Code Widgets</title>
-      <link>https://gitpitch.com/docs/code-features/pro-code-widgets/</link>
+      <link>https://www.devlead.se/docs-30/code-features/pro-code-widgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/pro-code-widgets/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/pro-code-widgets/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Pro Code Widgets.
  The Pro Code and Pro GIST widgets support the targeted injection of source code directly on your slides - including directly into any location on the Snap Layouts Grid .
  The Code Widget  The GIST Widget   The Code Widget The Code Widget renders source code from any file directly onto your slide. All paths are relative to the root directory of your local working directory or repository.</description>
     </item>
-    
+
     <item>
       <title>Pro Code ZOOM</title>
-      <link>https://gitpitch.com/docs/code-features/pro-code-zoom/</link>
+      <link>https://www.devlead.se/docs-30/code-features/pro-code-zoom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/pro-code-zoom/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/pro-code-zoom/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Pro Code ZOOM.
  The Pro Code ZOOM feature lets you zoom-in and zoom-out on code on any slide.
  Fenced Code Block with ZOOM  Source Code Delimiter with ZOOM  Code Widget with ZOOM  Code ZOOM within Snap Layouts  Live Code Presenting with Step-and-ZOOM  GitHub GIST Widget with ZOOM  GitHub GIST Widget with Step-and-ZOOM  Code ZOOM-In Properties  Code ZOOM-Out Properties    For a live, interactive GitPitch presentation demonstrating Code Step-and-ZOOM click here .</description>
     </item>
-    
+
     <item>
       <title>Pro Code Revealing</title>
-      <link>https://gitpitch.com/docs/code-features/pro-code-revealing/</link>
+      <link>https://www.devlead.se/docs-30/code-features/pro-code-revealing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/pro-code-revealing/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/pro-code-revealing/</guid>
       <description>Activate a GitPitch Paid Planto unlock Pro Code Revealing.
  The Pro Code Revealing feature gives you complete control over how and when code is revealed on your slides.
  Code Slide with Default Reveal Mode  Code Slide with Slow Reveal Mode  Code Slide with Fast Reveal Mode  GitHub GIST Slide with Default Reveal Mode  GitHub GIST Slide with Slow Reveal Mode  GitHub GIST Slide with Fast Reveal Mode    For a live, interactive GitPitch presentation demonstrating Code Revealing click here .</description>
     </item>
-    
+
     <item>
       <title>Pro Code Filters</title>
-      <link>https://gitpitch.com/docs/code-features/pro-code-filters/</link>
+      <link>https://www.devlead.se/docs-30/code-features/pro-code-filters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/pro-code-filters/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/pro-code-filters/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Pro Code Filters.
  The Pro Code Filters feature lets you select and inject specific lines or blocks of code onto your slides from any source file or GitHub GIST.
  Introducing Code Filters  Code Slide with Lines Filter  Code Slide with Tags Filter  GitHub GIST Slide with Lines Filter  GitHub GIST Slide with Tags Filter     Introducing Code Filters By default, the following GitPitch code tools render the full source file contents onto your slide:</description>
     </item>
-    
+
     <item>
       <title>Pro Code Power Properties</title>
-      <link>https://gitpitch.com/docs/code-features/pro-code-power-properties/</link>
+      <link>https://www.devlead.se/docs-30/code-features/pro-code-power-properties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/pro-code-power-properties/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/pro-code-power-properties/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Pro Code Revealing.
  The Pro Code Power Properties feature gives you fine-grained control over how code is rendered on your slides.
  Code-NoBlend Property  Code-Blend Property  Code-Max Property  Code-NoScroll Property  Code-Wrap Property  Code-Power Property   Code-NoBlend Property The Theme Template introduces an automatic convention that is activated for all slides displaying code. When a slide displays code, the slide background color automatically adopts the same background color used by the code block.</description>
     </item>
-    
+
     <item>
       <title>Pro Terminal Sessions</title>
-      <link>https://gitpitch.com/docs/code-features/terminal-sessions/</link>
+      <link>https://www.devlead.se/docs-30/code-features/terminal-sessions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/code-features/terminal-sessions/</guid>
+
+      <guid>https://www.devlead.se/docs-30/code-features/terminal-sessions/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Pro Terminal Sessions.
   About Terminal Sessions  Terminal Delimiter Syntax  Learn By Example with Custom Font Size &amp;#43; Title  Learn By Example with Custom Poster  Learn By Example with Custom Font Size &amp;#43; Theme &amp;#43; Poster   About Terminal Sessions Using terminal delimiter syntax, GitPitch supports the playback of Asciinema recorded terminal sessions. This feature is available to presentation authors when working online or offline.</description>
     </item>
-    
+
   </channel>
 </rss>
