@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitPitch Promotions on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/promotions/</link>
+    <link>https://www.devlead.se/docs-30/docs/promotions/</link>
     <description>Recent content in GitPitch Promotions on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/promotions/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/promotions/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Microsoft MVP</title>
-      <link>https://gitpitch.com/docs/promotions/microsoft-mvp/</link>
+      <link>https://www.devlead.se/docs-30/docs/promotions/microsoft-mvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/promotions/microsoft-mvp/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/promotions/microsoft-mvp/</guid>
       <description>About This Promotion  GitPitch Pro 1 Year Free Subscription for Microsoft MVPs from July 8, 2018 - July 8, 2019
  The hugely popular GitPitch / Microsoft MVP promotion closed to new applicants on December 31, 2018.
 While this promotion has ended for new applicants, GitPitch Pro subscriptions remain available directly on the GitPitch website. For details, click here . Each subscription includes a 7 day free trial. The perfect, risk free way to get hands-on experience with GitPitch.</description>
     </item>
-    
+
   </channel>
 </rss>

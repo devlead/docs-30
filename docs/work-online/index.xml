@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Share Online on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/work-online/</link>
+    <link>https://www.devlead.se/docs-30/docs/work-online/</link>
     <description>Recent content in Share Online on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/work-online/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/work-online/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Online Basics</title>
-      <link>https://gitpitch.com/docs/work-online/basics/</link>
+      <link>https://www.devlead.se/docs-30/docs/work-online/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/work-online/basics/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/work-online/basics/</guid>
       <description>The GitPitch service hosted on gitpitch.com seamlessly embraces and extends the traditional distributed version control capabilities offered by the following Git services in the cloud:
  GitHub.com  GitLab.com  Bitbucket.org   GitPitch turns every repository within these cloud services into:
  A version-controlled content management system for presentation content and assets A branch-aware content management system for presentation content and assets A collaborative content management system for presentation content and assets A publishing system for public, private and password-protected presentations  To learn how modular content managed within your Git repositories can be instantly published and shared as a slideshow presentation online, see the next section that describes the magic of GitPitch Slideshow URLS .</description>
     </item>
-    
+
     <item>
       <title>Slideshow URLs</title>
-      <link>https://gitpitch.com/docs/work-online/urls/</link>
+      <link>https://www.devlead.se/docs-30/docs/work-online/urls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/work-online/urls/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/work-online/urls/</guid>
       <description>Thanks to the PITCHME.md Convention , anyone with an account on GitHub, GitLab, or Bitbucket can publish and share slideshow presentations directly from within public and private Git repositories. This guide describes how you can create a GitPitch URL for your slideshow presentations maintained under the following services:
  GitHub Slideshow URLs  GitLab Slideshow URLs  Bitbucket Slideshow URLs  Advanced Slideshow URLs    By default, GitPitch treats GitHub as the default git repository service a.</description>
     </item>
-    
+
     <item>
       <title>Do More With Git</title>
-      <link>https://gitpitch.com/docs/work-online/do-more-with-git/</link>
+      <link>https://www.devlead.se/docs-30/docs/work-online/do-more-with-git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/work-online/do-more-with-git/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/work-online/do-more-with-git/</guid>
       <description>GitPitch lets you manage slideshow presentations as code. In a fully modular fashion. Modular markdown. Modular assets. Modular styling. Etc. And it does so while offering seamless integration with any existing Git Flow.
 In fact GitPitch unlocks a wide range of unique features powered by Git. Including the publication of GitPitch slide decks from within any branch on any Git repository. At a high level these features can be summarized as follows:</description>
     </item>
-    
+
   </channel>
 </rss>

@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work with Rich Media on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/rich-media-features/</link>
+    <link>https://www.devlead.se/docs-30/docs/rich-media-features/</link>
     <description>Recent content in Work with Rich Media on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/rich-media-features/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/rich-media-features/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Color Backgrounds</title>
-      <link>https://gitpitch.com/docs/rich-media-features/color-backgrounds/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/color-backgrounds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/color-backgrounds/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/color-backgrounds/</guid>
       <description>Learn By Example  Learn By Example - Color Gradients  Slide Background Design Templates   Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special color delimiter syntax allows overriding the basic delimiter semantics in order to activate a custom background color for specific slides.
 A well chosen background color can dramatically enhance the visual appearance and effectiveness of any slide within a presentation:</description>
     </item>
-    
+
     <item>
       <title>Font Awesome 5 Icons</title>
-      <link>https://gitpitch.com/docs/rich-media-features/font-awesome/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/font-awesome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/font-awesome/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/font-awesome/</guid>
       <description>GitPitch provides a PITCHME.md markdown shortcut syntax that can be used to render Font Awesome 5 Solid, Regular &amp;#43; Brand Icons . This features gives GitPitch presentation authors the use of up to 2000 beautifully rendered icons for use within any slideshow.
  Due to license restrictions, Font Awesome 5 Pro Icons are not available for use on GitPitch slides.
   FA5 Solid Icons Basic Syntax  FA5 Solid Icons Basic Syntax With Label  FA5 Brand Icons Basic Syntax  FA5 Brand Icons Basic Syntax With Label  FA5 Regular Icons Basic Syntax  FA5 Regular Icons Basic Syntax With Label  Font Awesome Icon Sizing  Font Awesome Icon Rotations  Font Awesome Icon Animations  Font Awesome Custom Styles  Font Awesome 4 Backwards Compatibility    Click here to experience Font Awesome icons in a live GitPitch presentation.</description>
     </item>
-    
+
     <item>
       <title>Tweet Widget</title>
-      <link>https://gitpitch.com/docs/rich-media-features/tweets/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/tweets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/tweets/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/tweets/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Tweet Widget support.
   @tweet - Tweet Widget  Tweet Offline Support  Tweet Browser Content Blocking   Tweet Widget To render a Tweet on any slide you can use the @tweet widget. Using the following syntax in your PITCHME.md markdown file:
 @tweet[https-url-to-tweet] Here is a markdown snippet demonstrating actual usage:
 --- @snap[west h3-white span-50] ### @fa[calendar] Dec 15, 2018 @snapend @snap[east span-50] @tweet[https://twitter.</description>
     </item>
-    
+
     <item>
       <title>Emoji Widget</title>
-      <link>https://gitpitch.com/docs/rich-media-features/emojis/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/emojis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/emojis/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/emojis/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Emoji Widget support.
   @emoji - Emoji Widget  GitPitch Emoji Library  Learn By Example   Emoji Widget To render an Emoji on any slide you can use the @emoji widget. Using the following syntax in your PITCHME.md markdown file:
 @emoji[emoji-name] Where emoji-name is any one of hundreds of available emojis supported by the GitPitch Emoji Library .</description>
     </item>
-    
+
     <item>
       <title>Table Data Widget</title>
-      <link>https://gitpitch.com/docs/rich-media-features/table-data/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/table-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/table-data/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/table-data/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Table Data Widget support.
   @table - Table Data Widget  Working with Table Data Headers  Working with Table Data Fragments  Working with Tabbed Table Data  Working with Custom Table Styles  Sizing Tables with Text Properties  Positioning Tables with Snap Layouts     Table Data Widget The @table widget renders comma-separated and tab-separated file data as tables.</description>
     </item>
-    
+
     <item>
       <title>Inline Videos</title>
-      <link>https://gitpitch.com/docs/rich-media-features/inline-videos/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/inline-videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/inline-videos/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/inline-videos/</guid>
       <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more .
   Learn By Example  Slide Inline YouTube Video  Slide Inline Vimeo Video  Slide Inline MP4 Video   Enhance any slideshow presentation by embedding rich video content. This technique provides a great way to take advantage of existing teaching or training materials.</description>
     </item>
-    
+
     <item>
       <title>Background Videos</title>
-      <link>https://gitpitch.com/docs/rich-media-features/background-videos/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/background-videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/background-videos/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/background-videos/</guid>
       <description>Video files must be served from a video streaming CDN such as YouTube or Vimeo. Your repository on GitHub, GitLab or Bitbucket can not be used as a video CDN. However, Pro subscribers can do more .
   Learn By Example   Basic slide delimiter syntax allows markdown content to be split into a series of slides. Special video delimiter syntax allows overriding the basic delimiter semantics in order to display any MP4 or WebM as a background video on specific slides.</description>
     </item>
-    
+
     <item>
       <title>Offline Video Streaming</title>
-      <link>https://gitpitch.com/docs/rich-media-features/offline-video-streaming/</link>
+      <link>https://www.devlead.se/docs-30/docs/rich-media-features/offline-video-streaming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/rich-media-features/offline-video-streaming/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/rich-media-features/offline-video-streaming/</guid>
       <description>GitPitch Paid Plans activate Offline Video Streaming.
  GitPitch Pro users can stream MP4 and WebM video content directly from the local repository when presenting offline using GitPitch Desktop .
 Simply add your MP4 and WebM video content to the Git repository for your presentation and then use relative paths to the video files on standard video delimiter syntax .
  Pro offline video streaming is automatically disabled for presentations viewed online at gitpitch.</description>
     </item>
-    
+
   </channel>
 </rss>

@@ -2,325 +2,325 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PITCHME.yaml Settings on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/settings/</link>
+    <link>https://www.devlead.se/docs-30/docs/settings/</link>
     <description>Recent content in PITCHME.yaml Settings on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/settings/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/settings/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>PITCHME.yaml</title>
-      <link>https://gitpitch.com/docs/settings/pitchme/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/pitchme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/pitchme/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/pitchme/</guid>
       <description>GitPitch offers a wide range of slideshow settings that can be used to customize the overall look-and-feel and behavior of any presentation.
 To activate custom settings for your slideshow presentation, add a PITCHME.yaml properties file alongside the PITCHME.md file in your repo. Custom settings are optional.
  Note, if you are creating slide decks within private Git repos see the Publishing Guide for important details about access control policies within your PITCHME.</description>
     </item>
-    
+
     <item>
       <title>Theme Setting</title>
-      <link>https://gitpitch.com/docs/settings/theme/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/theme/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/theme/</guid>
       <description>Purpose The theme setting lets you select a fixed theme for your presentation.
 Sample Syntax theme : template Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  The default GitPitch theme is the template theme.
 The old themes originally inherited from the Reveal.js project have been deprecated. A full deprecation notice can be found here . While deprecated, these themes remain to provide backward compatibility for presentations created before June, 2019.</description>
     </item>
-    
+
     <item>
       <title>Custom Theme Setting</title>
-      <link>https://gitpitch.com/docs/settings/custom-theme/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/custom-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/custom-theme/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/custom-theme/</guid>
       <description>Purpose The theme-override setting lets you override the CSS styles associated with the fixed theme for your presentation.
 Sample Syntax theme-override : assets/css/PITCHME.css Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  This feature allows you to customize the look-and-feel of any slideshow. This is especially useful if you want to customize your presentation to reflect your product, service, conference, or company brand.
 Use the theme-override setting as follows:</description>
     </item>
-    
+
     <item>
       <title>Theme Builder Setting</title>
-      <link>https://gitpitch.com/docs/settings/theme-builder/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/theme-builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/theme-builder/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/theme-builder/</guid>
       <description>Purpose The theme-builder setting is used to enable or disable the Theme Builder within GitPitch Desktop .
 Sample Syntax theme-builder : false Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When disabled, the theme-builder setting deactivates the Theme Builder within GitPitch Desktop . Deactivation has the following effects:
  It hides the theme builder launch icon And prevents the tool from being launched  When disabled, this setting helps to prevent the accidental modification of custom theme settings.</description>
     </item>
-    
+
     <item>
       <title>Code Highlight Setting</title>
-      <link>https://gitpitch.com/docs/settings/highlight/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/highlight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/highlight/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/highlight/</guid>
       <description>Purpose The highlight setting lets you customize the syntax highlighting style for code rendered on slides within your presentation.
 Sample Syntax highlight : monokai Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  As the following sample slides demonstrates, selecting a custom highlighting style for your decks can results in radically different rendering for code slides:
 For more example code slides, see the Code Highlighting Guide .</description>
     </item>
-    
+
     <item>
       <title>Code Line Numbers Setting</title>
-      <link>https://gitpitch.com/docs/settings/line-numbers/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/line-numbers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/line-numbers/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/line-numbers/</guid>
       <description>Purpose The code-line-numbers setting lets you activate the display of line-numbers alongside code rendered on slides within your presentation.
 Sample Syntax code-line-numbers : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  The activation of line-numbers alongside code can help simplify conversations between you and your audience - providing an effective way to identify and discuss specific lines of code on any slide.
 By default, line-numbers are not shown alongside code blocks:</description>
     </item>
-    
+
     <item>
       <title>Layout Setting</title>
-      <link>https://gitpitch.com/docs/settings/layout/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/layout/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/layout/</guid>
       <description>Purpose The layout setting lets you set an automatic layout policy for your slideshow content.
 Sample Syntax layout : top-left Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  The active layout sets an automatic layout policy for content on all slides within your presentation. See snap layouts to learn how to override the automatic layout policy for individual content on individual slides.
 GitPitch currently supports the following slideshow layouts:</description>
     </item>
-    
+
     <item>
       <title>Logo Setting</title>
-      <link>https://gitpitch.com/docs/settings/logo/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/logo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/logo/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/logo/</guid>
       <description>Purpose The logo setting lets you use a custom logo to brand every slide in your presentation.
 Sample Syntax logo : assets/img/logo.png Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  The logo setting supports both relative and absolute paths to the image file.
 By default your logo will be displayed in the top-left corner of every slide. However, you can change the position of your logo by specifying a logo-position setting alongside the logo setting.</description>
     </item>
-    
+
     <item>
       <title>Favicon Setting</title>
-      <link>https://gitpitch.com/docs/settings/favicon/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/favicon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/favicon/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/favicon/</guid>
       <description>Purpose The favicon setting lets you activate a custom favicon for your slide deck.
 Sample Syntax favicon : assets/img/fav.ico Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  The favicon setting supports both relative and absolute paths to the image file. When activated, your favicon is used as a website icon, tab icon, shortcut icon, URL icon, or bookmark icon for your slide deck.</description>
     </item>
-    
+
     <item>
       <title>Background Setting</title>
-      <link>https://gitpitch.com/docs/settings/background/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/background/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/background/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/background/</guid>
       <description>GitPitch supports a number of background-* settings that can be combined to deliver precise control over default background images used by any presentation.
  Background Setting  Background Size Setting  Background Position Setting  Background Color Setting  Background Repeat Setting  Background Opacity Setting   Setting: Background Purpose The background setting lets you specify a default background image for all slides within your presentation.
 Sample Syntax background : assets/img/bg.</description>
     </item>
-    
+
     <item>
       <title>Transition Setting</title>
-      <link>https://gitpitch.com/docs/settings/transition/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/transition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/transition/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/transition/</guid>
       <description>Purpose The transition setting lets you select the default slide transition style for your presentation.
 Sample Syntax transition : fade Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  Your chosen transition setting is activated by default for all slides within your presentation. To override this default behavior, see slide specific transition override .
 GitPitch currently supports the following slide transition styles:
  none (default) slide fade convex concave zoom   If you do not explicitly set a value for the transition setting your slides will automatically transition using the default transition style - the none transition.</description>
     </item>
-    
+
     <item>
       <title>Title Setting</title>
-      <link>https://gitpitch.com/docs/settings/title/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/title/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/title/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/title/</guid>
       <description>Purpose The title setting lets you set a custom HTML title for your slideshow presentation.
  Note: The title setting is a Pro Power feature only.
  Sample Syntax title : &amp;#34;Do More With Markdown&amp;#34; Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, a custom title for your presentation has the following affects:
  Displays a custom title for the presentation in search-engine results Defines a custom title for the presentation in the browser toolbar or tab Provides a custom title for the presentation when it is added to favorites  For example, here is a sample custom title set in a PITCHME.</description>
     </item>
-    
+
     <item>
       <title>Footnote Setting</title>
-      <link>https://gitpitch.com/docs/settings/footnote/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/footnote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/footnote/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/footnote/</guid>
       <description>Purpose The footnote setting lets you display a custom footnote on every slide within your presentation.
 Sample Syntax footnote : &amp;#34;© 2018 One Tap Ltd.&amp;#34; Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  Footnotes are visible on-screen whether your slideshow presentation is being viewed in normal mode or fullscreen mode .
 HTML Footnotes The footnote setting also supports the use of arbitrary HTML fragments alongside plain text.</description>
     </item>
-    
+
     <item>
       <title>Published Setting</title>
-      <link>https://gitpitch.com/docs/settings/published/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/published/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/published/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/published/</guid>
       <description>Purpose The published setting is dual purpose:
   For public repositories, it lets you flag a presentation as post-development and ready for sharing.
   For private repositories, it also activates GitPitch Publishing Published Mode .
   This page describes it&amp;rsquo;s usage within public repositories. See the GitPitch Publishing Guide for usage of the published setting within private repositories.
 Sample Syntax published : true Details  Slideshow settings are activated using a PITCHME.</description>
     </item>
-    
+
     <item>
       <title>Loop Setting</title>
-      <link>https://gitpitch.com/docs/settings/loop/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/loop/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/loop/</guid>
       <description>Purpose The loop setting lets you activate circular navigation for your slideshow presentation.
 Sample Syntax loop : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the loop setting permits direct navigation from the last slide within your slideshow back to the first slide.
 By default, this style of looping or circular navigation is disabled.</description>
     </item>
-    
+
     <item>
       <title>Lang Setting</title>
-      <link>https://gitpitch.com/docs/settings/lang/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/lang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/lang/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/lang/</guid>
       <description>Purpose The lang setting lets you declare the language of your slide deck to assist search engines and browsers.
 Sample Syntax lang : &amp;#34;es&amp;#34; Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, this setting sets the lang property on the top-level &amp;lt;html lang=&amp;quot;es&amp;quot;&amp;gt; element for your slide deck. By default, this property is not set.</description>
     </item>
-    
+
     <item>
       <title>RTL Setting</title>
-      <link>https://gitpitch.com/docs/settings/rtl/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/rtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/rtl/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/rtl/</guid>
       <description>Purpose The rtl setting lets you activate Right-To-Left navigation for your slideshow presentation.
 Sample Syntax rtl : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the rtl setting activates Right-To-Left navigation between slides for your slideshow presentation.
 By default, Left-To-Right navigation is activated for all slideshow presentations.</description>
     </item>
-    
+
     <item>
       <title>Controls Layout Setting</title>
-      <link>https://gitpitch.com/docs/settings/controls-layout/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/controls-layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/controls-layout/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/controls-layout/</guid>
       <description>Purpose The controls-layout setting lets you control the position of the navigation controls for your presentation.
 Sample Syntax controls-layout : edges Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  By default, the navigation controls for a presentation are found in the bottom-right corner of each slide:
 You can override this default position by setting an edges value for the controls-layout setting. Edges cause the navigation controls to display in a centered position as shown in the following screenshot:</description>
     </item>
-    
+
     <item>
       <title>Print Settings</title>
-      <link>https://gitpitch.com/docs/settings/print/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/print/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/print/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/print/</guid>
       <description>Purpose The set of print settings let you customize PDF &amp;#43; PPTX output when exporting GitPitch slide decks.
 Default Setting Values print-fragments : true print-notes : false print-footer : false Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  By default, the following document export controls are activated:
  Each markdown fragment and code fragment is printed on an individual page. Speaker notes are not printed. Slide footers are not printed.</description>
     </item>
-    
+
     <item>
       <title>Mouse Wheel Setting</title>
-      <link>https://gitpitch.com/docs/settings/mouse-wheel/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/mouse-wheel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/mouse-wheel/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/mouse-wheel/</guid>
       <description>Purpose The mousewheel setting lets you activate navigation by mouse-wheel for your slideshow presentation.
 Sample Syntax mousewheel : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the mousewheel setting activates support for navigation between slides by mouse-wheel. Navigation by keyboard is unaffected by this setting.
 By default, navigation by mousewheel is disabled.</description>
     </item>
-    
+
     <item>
       <title>Remote Control Setting</title>
-      <link>https://gitpitch.com/docs/settings/remote-control/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/remote-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/remote-control/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/remote-control/</guid>
       <description>Purpose The remote-control setting lets you activate navigation using a remote control device: Logitech, Kensington, etc.
 Sample Syntax remote-control : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the remote-control setting gives presentation authors the ability to present hands-free - far away from the keyboard.
 By default, navigation by remote-control is disabled.
 Activate Remote Control Custom Key Mappings In order to navigate through the full set of slides in a GitPitch presentation, a remote control device must emit a stream of Previous and Next events.</description>
     </item>
-    
+
     <item>
       <title>Eager Loading Setting</title>
-      <link>https://gitpitch.com/docs/settings/eager-loading/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/eager-loading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/eager-loading/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/eager-loading/</guid>
       <description>Purpose The eager-loading setting activates an eager-loading policy for slideshow presentation assets.
 Sample Syntax eager-loading : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When the eager-loading setting is activated slideshow assets, including images and videos, are loaded over the network when a presentation is first opened in the browser.
 This setting is provide mainly for conference speakers .
 By default, this setting is disabled, ensuring a lazy-loading policy is used for slideshow presentation assets.</description>
     </item>
-    
+
     <item>
       <title>Charts Plugin Setting</title>
-      <link>https://gitpitch.com/docs/settings/charts-plugin/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/charts-plugin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/charts-plugin/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/charts-plugin/</guid>
       <description>Purpose The charts setting lets you activate Chart.js rendering for your slideshow presentation.
 Sample Syntax charts : true Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the charts setting activates the Chart.js plugin for your slideshow presentation. See the Charts Guide documentation for details.
 By default, the Chart.js plugin is disabled for all slideshow presentations.</description>
     </item>
-    
+
     <item>
       <title>Maths Plugin Setting</title>
-      <link>https://gitpitch.com/docs/settings/maths-plugin/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/maths-plugin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/maths-plugin/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/maths-plugin/</guid>
       <description>Purpose The mathjax setting lets you activate MathJax rendering for your slideshow presentation.
 Sample Syntax mathjax : TeX-MML-AM_HTMLorMML-full Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the mathjax setting activates the MathJax plugin for your slideshow presentation. See the Rich Media Math Formulas documentation for details.
 By default, the MathJax plugin is disabled for all slideshow presentations.</description>
     </item>
-    
+
     <item>
       <title>Google Analytics Setting</title>
-      <link>https://gitpitch.com/docs/settings/google-analytics/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/google-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/google-analytics/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/google-analytics/</guid>
       <description>Purpose The gatoken setting lets you activate Google Analytics tracking for your slideshow presentation.
 Sample Syntax gatoken : UA-1111111-1 Details  Slideshow settings are activated using a PITCHME.yaml properties file.
  When activated, the gatoken setting will enable Google Analytics tracking for your slideshow presentation.
 Create GA Property In order to enable the gatoken setting you must first create your own GA Property for gitpitch.com. To create a GA Property do as follows:</description>
     </item>
-    
+
     <item>
       <title>Twitter Card Settings</title>
-      <link>https://gitpitch.com/docs/settings/twitter-card/</link>
+      <link>https://www.devlead.se/docs-30/docs/settings/twitter-card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/settings/twitter-card/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/settings/twitter-card/</guid>
       <description>Twitter Card Details  Twitter Card Examples  Twitter Card Testing   Purpose A combination of title, description, and thumbnail settings let you customize the details of a Twitter Card or other Open Graph card for your slideshow presentation.
  Note: These Twitter Cards settings are a Pro Power feature only.
  Sample Syntax title : &amp;#34;Elixir Lang&amp;#34; description : &amp;#34;A functional, concurrent language on the Erlang VM&amp;#34; thumbnail : assets/img/screenshot.</description>
     </item>
-    
+
   </channel>
 </rss>

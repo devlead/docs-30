@@ -2,110 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slide Design Templates on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/the-template/</link>
+    <link>https://www.devlead.se/docs-30/docs/the-template/</link>
     <description>Recent content in Slide Design Templates on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/the-template/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/the-template/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Introduction</title>
-      <link>https://gitpitch.com/docs/the-template/introduction/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/introduction/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/introduction/</guid>
       <description>The Slide Design Templates guide is a collection of markdown snippets that can be used to quickly create high-utility slide designs within your GitPitch slide decks. Using these templates is simple:
  First activate the Theme Template in the PITCHME.yaml for your slide deck. Then start to copy-and-paste markdowns snippet from this guide into your PITCHME.md . And immediately see the chosen templates come to life within your GitPitch slide deck.</description>
     </item>
-    
+
     <item>
       <title>Slide Design Categories</title>
-      <link>https://gitpitch.com/docs/the-template/slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/slide-designs/</guid>
       <description>The Slide Design Templates have been grouped into related categories. This approach can help you more easily discover the perfect slide design templates for your next slide deck.
  Solid Background Slide Designs  Gradient Background Slide Designs  Horizontal Background Slide Designs  Vertical Background Slide Designs  Angled Background Slide Designs  Unordered List Slide Designs  Ordered List Slide Designs   Tip! Background Slide Design Templates If you find a background slide design that you would like to set as the base design for every slide in your deck, you can activate the design globally using the Theme Template Background Property .</description>
     </item>
-    
+
     <item>
       <title>Solid BG Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/solid-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/solid-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/solid-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/solid-slide-designs/</guid>
       <description>To reproduce any of the slide background designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch color slide delimiters . Each snippet displays placeholder colors and content.</description>
     </item>
-    
+
     <item>
       <title>Gradient BG Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/gradient-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/gradient-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/gradient-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/gradient-slide-designs/</guid>
       <description>To reproduce any of the slide background designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch color slide delimiters . Each snippet displays placeholder colors and content.</description>
     </item>
-    
+
     <item>
       <title>Horizontal BG Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/horizontal-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/horizontal-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/horizontal-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/horizontal-slide-designs/</guid>
       <description>To reproduce any of the slide background designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch color slide delimiters . Each snippet displays placeholder colors and content.</description>
     </item>
-    
+
     <item>
       <title>Vertical BG Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/vertical-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/vertical-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/vertical-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/vertical-slide-designs/</guid>
       <description>To reproduce any of the slide background designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch color slide delimiters . Each snippet displays placeholder colors and content.</description>
     </item>
-    
+
     <item>
       <title>Angled BG Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/angled-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/angled-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/angled-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/angled-slide-designs/</guid>
       <description>To reproduce any of the slide background designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch color slide delimiters . Each snippet displays placeholder colors and content.</description>
     </item>
-    
+
     <item>
       <title>Unordered List Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/unordered-list-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/unordered-list-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/unordered-list-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/unordered-list-slide-designs/</guid>
       <description>To reproduce any of the unordered list slide designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch markdown list widget syntax . This syntax lets you activate built-in Theme Template properties and custom CSS styles on list content.</description>
     </item>
-    
+
     <item>
       <title>Ordered List Slide Designs</title>
-      <link>https://gitpitch.com/docs/the-template/ordered-list-slide-designs/</link>
+      <link>https://www.devlead.se/docs-30/docs/the-template/ordered-list-slide-designs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/the-template/ordered-list-slide-designs/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/the-template/ordered-list-slide-designs/</guid>
       <description>To reproduce any of the ordered list slide designs shown in this guide simply copy-and-paste the corresponding markdown snippet directly into the PITCHME.md for your GitPitch slide deck.
  Click the small icon in the top-right corner of any markdown block below to copy the markdown snippet.
  All of the markdown snippets that follow in this guide make use of GitPitch markdown list widget syntax . This syntax lets you activate built-in Theme Template properties and custom CSS styles on list content.</description>
     </item>
-    
+
   </channel>
 </rss>

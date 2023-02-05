@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Custom Themes on Markdown Presentations for Developers</title>
-    <link>https://gitpitch.com/docs/themes/</link>
+    <link>https://www.devlead.se/docs-30/docs/themes/</link>
     <description>Recent content in Custom Themes on Markdown Presentations for Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://gitpitch.com/docs/themes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://www.devlead.se/docs-30/docs/themes/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>The Theme Builder</title>
-      <link>https://gitpitch.com/docs/themes/default/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/default/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/default/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/default/</guid>
       <description>The Theme Builder is an interactive tool for creating custom visual themes for GitPitch slide decks. The theme builder is accessed directly within GitPitch Desktop . To launch the theme builder, open any slide deck and press the &amp;ldquo;T&amp;rdquo; key or click on the theme-paletteicon.
   The theme builder provides simple, fast, custom styling for the following deck components:
  Deck Color Scheme  Slide Background  Headline Text ( H1, H2 )  Byline Text ( H3, H4 )  Plain Text  Source Code  General Settings  Export &amp;#43; Share Theme Settings   All theme builder customizations apply to content across every slide in your deck.</description>
     </item>
-    
+
     <item>
       <title>The Theme Template</title>
-      <link>https://gitpitch.com/docs/themes/template/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/template/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/template/</guid>
       <description>The Theme Template is a customizable theme for GitPitch slide decks. The best way to manipulate the template is to use the GitPitch Theme Builder . The theme template has been crafted to deliver the following benefits:
  Attractive default styling for GitPitch slide decks out-of-the-box. Simple, fast customization of slide background, text fonts, colors, and more. Consistent rendering everywhere - online, offline, PDF, and PowerPoint. Plus automatic rendering optimizations for any slide displaying code.</description>
     </item>
-    
+
     <item>
       <title>Theme Custom CSS</title>
-      <link>https://gitpitch.com/docs/themes/custom/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/custom/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/custom/</guid>
       <description>While the Theme Builder delivers simple, fast customization for GitPitch slide decks, the use of custom CSS gives you highly targeted and almost unlimited control over the look-and-feel of any presentation.
 This feature is powered by Cascading Style Sheets aka. CSS. As a presentation author you can define and activate new CSS style rules that override the default style rules inherited from the fixed theme active on your presentation.</description>
     </item>
-    
+
     <item>
       <title>Theme Custom Fonts</title>
-      <link>https://gitpitch.com/docs/themes/custom-fonts/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/custom-fonts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/custom-fonts/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/custom-fonts/</guid>
       <description>Activate a GitPitch Paid Plan to unlock Custom Fonts support.
  Custom font support lets presentation authors accurately reflect the brand of any project, conference, or business within GitPitch slide decks. Licensed commercial fonts and free Web fonts can be used including Google Web Fonts .
   This guide describes how you can activate custom fonts for your slide decks.
  Download Custom Fonts Woff or Woff2  Register Custom Fonts in your PITCHME.</description>
     </item>
-    
+
     <item>
       <title>Theme Utility Styles</title>
-      <link>https://gitpitch.com/docs/themes/css-utility-styles/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/css-utility-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/css-utility-styles/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/css-utility-styles/</guid>
       <description>Span (Width) Styles  Text Color Styles  Text Font Size Styles  Text Font Weight Styles  Text Font Family Styles  Text Alignment Styles  Heading Color Styles  Background Color Styles  List Bullet Styles  Override Utility Styles    To override any of the utility styles documented in this guide, see overriding utility styles .
  Span (Width) Styles The set of available span-{width} styles can be used to constrain the horizontal-space used by content on your slides.</description>
     </item>
-    
+
     <item>
       <title>Theme Template Demos</title>
-      <link>https://gitpitch.com/docs/themes/demos/</link>
+      <link>https://www.devlead.se/docs-30/docs/themes/demos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gitpitch.com/docs/themes/demos/</guid>
+
+      <guid>https://www.devlead.se/docs-30/docs/themes/demos/</guid>
       <description>The Theme Template is a customizable theme for GitPitch slide decks. The default theme template configuration delivers attractive styling for GitPitch slide decks out-of-the-box. But making even small changes to the default configuration can deliver a brand new look-n-feel for any slide deck.
 To demonstrate the power and flexibility of the theme template this guide provides a number of sample custom configurations along with a live demonstration of each custom config in a sample slide deck.</description>
     </item>
-    
+
   </channel>
 </rss>
